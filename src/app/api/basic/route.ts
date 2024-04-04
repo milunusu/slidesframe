@@ -12,7 +12,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
 
   if (idAsNumber === 2) {
     return new NextResponse(`<!DOCTYPE html><html><head>
-    <title>This is frame 4</title>
+    <title>This is frame 2</title>
     <meta property="og:image" content="https://indigo-advisory-gorilla-502.mypinata.cloud/ipfs/QmQGN79J7rwX2NmZdEnyX6ViGWAiSJ6irMCyxFQmC4H2VL/1.jpg" />
     <meta property="fc:frame" content="vNext" />
     <meta property="fc:frame:image" content="https://indigo-advisory-gorilla-502.mypinata.cloud/ipfs/QmQGN79J7rwX2NmZdEnyX6ViGWAiSJ6irMCyxFQmC4H2VL/1.jpg" />
